@@ -1,0 +1,13 @@
+code --install-extension apollographql.vscode-apollo
+code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension dracula-theme.theme-dracula
+code --install-extension esbenp.prettier-vscode
+code --install-extension golang.Go
+code --install-extension hex-ci.stylelint-plus
+code --install-extension humao.rest-client
+code --install-extension jpoissonnier.vscode-styled-components
+code --install-extension mikestead.dotenv
+code --install-extension MS-CEINTL.vscode-language-pack-ja
+code --install-extension toba.vsfire
+code --install-extension zxh404.vscode-proto3
