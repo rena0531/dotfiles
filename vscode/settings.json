@@ -13,9 +13,17 @@
     "source.fixAll.eslint": true
   },
   "eslint.alwaysShowStatus": true,
-  "files.autoSave": "afterDelay",
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "http.proxySupport": "off",
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "stylelint.autoFixOnSave":true,
+  "javascript.format.enable": false,
+  "prettier.packageManager": "yarn",
+  "files.autoSave": "afterDelay"
 }
+
