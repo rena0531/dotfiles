@@ -10,20 +10,25 @@
   "eslint.nodePath": "./node_modules/eslint",
   "eslint.packageManager": "yarn",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
+    "stylelint.autoFixOnSave": true
   },
   "eslint.alwaysShowStatus": true,
-  "editor.formatOnSave": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "http.proxySupport": "off",
   "window.zoomLevel": 0,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "stylelint.autoFixOnSave":true,
+
   "javascript.format.enable": false,
   "prettier.packageManager": "yarn",
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "editor.lineHeight": 16,
+  "editor.letterSpacing": -1,
+  "editor.tabSize": 2,
+  "workbench.startupEditor": "newUntitledFile",
+  "files.autoSaveDelay": 100,
+  "workbench.statusBar.visible": true
 }
-

@@ -29,3 +29,6 @@ eval "$(starship init zsh)"
 export NVM_DIR = " $ HOME /.nvm " 
 [ -s  " $ NVM_DIR /nvm.sh " ] &&  \。 " $ NVM_DIR /nvm.sh "export PATH="$HOME/.anyenv/bin:$PATH"
 export PATH="$HOME/.anyenv/bin:$PATH"
+
+#nodebrew
+export PATH=$HOME/.nodebrew/current/bin:$PATH
